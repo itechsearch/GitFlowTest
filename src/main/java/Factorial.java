@@ -1,3 +1,5 @@
+
+
 import java.util.Scanner;
 
 //test
@@ -8,7 +10,7 @@ public class Factorial {
         System.out.println(fibonacci(test));
     }
 
-    private static int fibonacci(int test) {
+    public static int fibonacci(int test) {
         if(test==1){
             return 1;
         }
