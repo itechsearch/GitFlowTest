@@ -5,7 +5,8 @@ pipeline{
         {
             steps{
                 withMaven(maven: 'MAVEN'){
-                    shell 'mvn clean compile'
+                    shell 'mvn clean compile install'
+                    echo 'completed'
                 }
             }
         }
