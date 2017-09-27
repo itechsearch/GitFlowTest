@@ -5,7 +5,7 @@ public class FactorialTest {
 
     @Test
     public void testFactorial() {
-        junit.framework.Assert.assertEquals(3, Factorial.fibonacci(1));
+        junit.framework.Assert.assertEquals(1, Factorial.fibonacci(1));
 
     }
 }
