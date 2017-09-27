@@ -5,7 +5,7 @@ pipeline{
         {
             steps{
                 withMaven(maven: 'MAVEN'){
-                    bat 'mvn clean compile install'
+                    bat 'mvn clean compile'
                     echo 'completed'
                 }
             }
